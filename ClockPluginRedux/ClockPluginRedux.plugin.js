@@ -13,8 +13,6 @@ var ClockPluginRedux = (() => {
 		stop() {}
 	} : (([Plugin, Api]) => {
 		const plugin = (Plugin, Library) => {
-			
-			const {Logger, Patcher} = Library;
 
 	return class ClockPluginRedux extends Plugin {
 
