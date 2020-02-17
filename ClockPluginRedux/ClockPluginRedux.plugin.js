@@ -39,10 +39,9 @@ var ClockPluginRedux = (() => {
 			if(this.settings.format == true){
 				this.ticktock();
 				this.interval = setInterval(function(){
-                    self.ticktock(self);
-                }, 1000);
-			}
-			else{
+					self.ticktock(self);
+				}, 1000);
+			} else{
 				this.ticktock12();
 				this.interval = setInterval(function(){
 					self.ticktock12(self);
